@@ -58,28 +58,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    //    @Override
-//    public void onRestoreInstanceState(Bundle bundle) {
-//
-//        super.onRestoreInstanceState(bundle);
-//
-//        scorePlayerOne = bundle.getInt("scorePlayerOne");
-//        scorePlayerTwo = bundle.getInt("scorePlayerTwo");
-//        scorePlayerThree = bundle.getInt("scorePlayerThree");
-//
-//        display();
-//    }
-//
-//
-//    @Override
-//    public void onSaveInstanceState (Bundle bundle){
-//        bundle.putInt("scorePlayerOne",scorePlayerOne);
-//        bundle.putInt("scorePlayerTwo",scorePlayerTwo);
-//        bundle.putInt("scorePlayerThree",scorePlayerThree);
-//
-//        super.onSaveInstanceState(bundle);
-//    }
-
     private void init_question_1_views() {
         question_1_answer_A = (RadioButton) findViewById(R.id.radio_button_q_one_A);
         question_1_answer_B = (RadioButton) findViewById(R.id.radio_button_q_one_B);
