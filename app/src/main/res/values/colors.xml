@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#F57C00</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="navigatorBarCode">#E65100</color>
+
+
+    <!--Questions-->
+    <color name="questionsText">#000000</color>
+    <color name="questionBackground">#FF9800</color>
+
+    <!--Radio Group-->
+    <color name="radio_group_background">#FFFFFF</color>
+
+    <!--Radio Button-->
+    <color name="radio_button_text">#000000</color>
+
+    <!--EditText-->
+    <color name="editText_text">#000000</color>
+    <color name="editText_background">#FFFFFF</color>
+
+    <!--Checkbox-->
+    <color name="checkbox_text">#000000</color>
+    <color name="checkbox_background">#FFFFFF</color>
+
+
+</resources>

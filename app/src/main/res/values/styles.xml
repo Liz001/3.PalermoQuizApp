@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/navigatorBarCode</item>
+    </style>
+
+    <!-- Questions-->
+    <style name="Questions">
+        <item name="android:textColor">@color/questionsText</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/question_text_size</item>
+        <item name="android:layout_marginLeft">@dimen/question_margin_left</item>
+        <item name="android:layout_marginTop">@dimen/question_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/question_margin_right</item>
+        <item name="android:paddingLeft">@dimen/question_padding_left</item>
+        <item name="android:paddingRight">@dimen/question_padding_right</item>
+        <item name="android:paddingTop">@dimen/question_padding_top</item>
+        <item name="android:paddingBottom">@dimen/question_padding_bottom</item>
+        <item name="android:background">@color/questionBackground</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+    </style>
+
+
+    <!--Radio Group-->
+    <style name="radioGroup">
+        <item name="android:layout_marginLeft">@dimen/radio_group_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/radio_group_margin_right</item>
+        <item name="android:paddingLeft">@dimen/radio_group_padding_left</item>
+        <item name="android:paddingRight">@dimen/radio_group_padding_right</item>
+        <item name="android:background">@color/radio_group_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--Radio Buttons-->
+    <style name="radioButton">
+        <item name="android:textColor">@color/radio_button_text</item>
+        <item name="android:textSize">@dimen/radio_button_text_size</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--EditText-->
+    <style name="editText">
+        <item name="android:textColor">@color/editText_text</item>
+        <item name="android:textSize">@dimen/edittext_size</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/editText_background</item>
+        <item name="android:hint">@string/enter_edittext</item>
+        <item name="android:layout_marginLeft">@dimen/edittext_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/edittext_margin_right</item>
+        <item name="android:layout_marginBottom">@dimen/edittext_margin_bottom</item>
+        <item name="android:paddingLeft">@dimen/edittext_padding_left</item>
+        <item name="android:paddingTop">@dimen/edittext_padding_top</item>
+        <item name="android:paddingBottom">@dimen/edittext_padding_bottom</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">20</item>
+        <item name="android:capitalize">sentences</item>
+    </style>
+
+    <!--Checkbox-->
+    <style name="checkbox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/checkbox_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/checkbox_margin_right</item>
+        <item name="android:paddingTop">@dimen/checkbox_padding_top</item>
+        <item name="android:paddingBottom">@dimen/checkbox_padding_bottom</item>
+        <item name="android:drawable">@android:color/transparent</item>
+        <item name="android:drawablePadding">60dp</item>
+        <item name="android:paddingRight">@dimen/checkbox_padding_right</item>
+        <item name="android:textColor">@color/checkbox_text</item>
+        <item name="android:background">@color/checkbox_background</item>
+    </style>
+
+
+    <!--Buttons-->
+    <style name="buttons">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">@dimen/button_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/button_margin_right</item>
+        <item name="android:background">@drawable/button_custom</item>
+    </style>
+
+</resources>

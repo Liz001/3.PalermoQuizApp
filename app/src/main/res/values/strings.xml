@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Palermo Quiz app</string>
+
+    <!---Questions-->
+    <string name="question_one">1. Palermo is located in &#8230;</string>
+    <string name="question_two">2. Over time Palermo has had several names. Among those mentioned one is not true. Which is?</string>
+    <string name="question_three">3. With which of these names the Phoenicians called Palermo?</string>
+    <string name="question_four">4. The church of Santa Maria dell\'Ammiraglio was founded in the first half of the XII century by George of Antioch Admiral Roger. Today as it is commonly called this church?</string>
+    <string name="question_five">5. The first half of the XII century which corresponds years? (from - to)</string>
+    <string name="question_six">6. Which of these theaters are in Palermo?</string>
+    <string name="question_seven">7. Roger II of Sicily was a king &#8230;</string>
+
+
+    <!--          Radio Buttons                           -->
+
+    <!--Question 1-->
+    <string name="q_one_A">A. Campania</string>
+    <string name="q_one_B">B. Sicily</string>
+    <string name="q_one_C">C. Tuscany</string>
+    <string name="q_one_D">D. Liguria</string>
+
+    <!--Question 2-->
+    <string name="q_two_A">A. Ziz</string>
+    <string name="q_two_B">B. Panormus</string>
+    <string name="q_two_C">C. Trinacria</string>
+    <string name="q_two_D">D. Balarm</string>
+
+    <!--Question 3-->
+    <string name="q_three_A">A. Ziz</string>
+    <string name="q_three_B">B. Panormus</string>
+    <string name="q_three_C">C. Trinacria</string>
+    <string name="q_three_D">D. Balarm</string>
+
+    <!--Question 4-->
+    <string name="q_four_A">A. La Nave</string>
+    <string name="q_four_B">B. Chiesa dei Marinai</string>
+    <string name="q_four_C">C. La Bedda</string>
+    <string name="q_four_D">D. La Martorana</string>
+
+    <!--Question 5 EditText-->
+    <string name="enter_edittext">Enter here your answer.</string>
+
+    <!--Question 6 Checkbox-->
+    <string name="chechbox_text_A">A. Teatro Massimo Vittorio Emanuele</string>
+    <string name="chechbox_text_B">B. Teatro alla Scala</string>
+    <string name="chechbox_text_C">C. Gran Teatro La Fenice</string>
+    <string name="chechbox_text_D">D. Teatro Politeama</string>
+
+    <!--Question 7-->
+    <string name="q_seven_A">A. Catalan</string>
+    <string name="q_seven_B">B. Norman</string>
+    <string name="q_seven_C">C. Swabian</string>
+    <string name="q_seven_D">D. Aragonese</string>
+
+
+    <!--Buttons-->
+    <string name="reset">Reset</string>
+    <string name="result">Go to result</string>
+
+    <!--Answer correct or wrong-->
+
+    <string name="correct_1">1. Answer A is correct</string>
+    <string name="correct_2">2. Answer C is correct</string>
+    <string name="correct_3">3. Answer A is correct</string>
+    <string name="correct_4">4. Answer D is correct</string>
+    <string name="correct_5">5. Answer "1100 &#8211; 1150" is correct</string>
+    <string name="correct_6">6. Answers A and D are correct</string>
+    <string name="correct_7">7. Answer B is correct</string>
+
+    <string name="wrong_1">1. Your answer is wrong, A is correct</string>
+    <string name="wrong_2">2. Your answer is wrong, C is correct</string>
+    <string name="wrong_3">3. Your answer is wrong, A is correct</string>
+    <string name="wrong_4">4. Your answer is wrong, D is correct</string>
+    <string name="wrong_5">5. Your answer is wrong, "1100 &#8211; 1150" is correct</string>
+    <string name="wrong_6">6. Your answer is wrong, A and D are correct</string>
+    <string name="wrong_7">7. Your answer is wrong, B is correct</string>
+
+
+    <!--Toast message-->
+    <string name="score">"Your score is "</string>
+
+
+</resources>

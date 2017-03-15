@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/zoom_quiz_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question_one"
+                style="@style/Questions"
+                android:text="@string/question_one" />
+
+            <RadioGroup style="@style/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_one_A"
+                    style="@style/radioButton"
+                    android:text="@string/q_one_A" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_one_B"
+                    style="@style/radioButton"
+                    android:text="@string/q_one_B" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_one_C"
+                    style="@style/radioButton"
+                    android:text="@string/q_one_C" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_one_D"
+                    style="@style/radioButton"
+                    android:text="@string/q_one_D" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question_two"
+                style="@style/Questions"
+                android:text="@string/question_two" />
+
+            <RadioGroup
+
+                style="@style/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_two_A"
+                    style="@style/radioButton"
+                    android:text="@string/q_two_A" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_two_B"
+                    style="@style/radioButton"
+                    android:text="@string/q_two_B" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_two_C"
+                    style="@style/radioButton"
+                    android:text="@string/q_two_C" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_two_D"
+                    style="@style/radioButton"
+                    android:text="@string/q_two_D" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question_three"
+                style="@style/Questions"
+                android:text="@string/question_three" />
+
+            <RadioGroup
+
+                style="@style/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_three_A"
+                    style="@style/radioButton"
+                    android:text="@string/q_three_A" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_three_B"
+                    style="@style/radioButton"
+                    android:text="@string/q_three_B" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_three_C"
+                    style="@style/radioButton"
+                    android:text="@string/q_three_C" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_three_D"
+                    style="@style/radioButton"
+                    android:text="@string/q_three_D" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question_four"
+                style="@style/Questions"
+                android:text="@string/question_four" />
+
+            <RadioGroup
+
+                style="@style/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_four_A"
+                    style="@style/radioButton"
+                    android:text="@string/q_four_A" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_four_B"
+                    style="@style/radioButton"
+                    android:text="@string/q_four_B" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_four_C"
+                    style="@style/radioButton"
+                    android:text="@string/q_four_C" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_four_D"
+                    style="@style/radioButton"
+                    android:text="@string/q_four_D" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question_five"
+                style="@style/Questions"
+                android:text="@string/question_five" />
+
+            <EditText
+                android:id="@+id/edittext_question_five"
+                style="@style/editText" />
+
+            <TextView
+                android:id="@+id/question_six"
+                style="@style/Questions"
+                android:text="@string/question_six" />
+
+            <CheckBox
+                android:id="@+id/checkbox_q_six_A"
+                style="@style/checkbox"
+                android:text="@string/chechbox_text_A" />
+
+            <CheckBox
+                android:id="@+id/checkbox_q_six_B"
+                style="@style/checkbox"
+                android:text="@string/chechbox_text_B" />
+
+            <CheckBox
+                android:id="@+id/checkbox_q_six_C"
+                style="@style/checkbox"
+                android:text="@string/chechbox_text_C" />
+
+            <CheckBox
+                android:id="@+id/checkbox_q_six_D"
+                style="@style/checkbox"
+                android:text="@string/chechbox_text_D" />
+
+            <TextView
+                android:id="@+id/question_seven"
+                style="@style/Questions"
+                android:text="@string/question_seven" />
+
+            <RadioGroup
+
+                style="@style/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_seven_A"
+                    style="@style/radioButton"
+                    android:text="@string/q_seven_A" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_seven_B"
+                    style="@style/radioButton"
+                    android:text="@string/q_seven_B" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_seven_C"
+                    style="@style/radioButton"
+                    android:text="@string/q_seven_C" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_q_seven_D"
+                    style="@style/radioButton"
+                    android:text="@string/q_seven_D" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/buttons"
+                android:onClick="resetAnswers"
+                android:text="@string/reset"
+
+                />
+
+            <Button
+                style="@style/buttons"
+                android:onClick="submitAnswer"
+                android:text="@string/result"
+
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

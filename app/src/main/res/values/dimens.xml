@@ -1,0 +1,54 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Questions-->
+    <dimen name="question_text_size">16sp</dimen>
+    <dimen name="question_margin_left">16dp</dimen>
+    <dimen name="question_margin_top">8dp</dimen>
+    <dimen name="question_margin_right">16dp</dimen>
+    <dimen name="question_padding_top">8dp</dimen>
+    <dimen name="question_padding_left">8dp</dimen>
+    <dimen name="question_padding_bottom">8dp</dimen>
+    <dimen name="question_padding_right">4dp</dimen>
+
+
+    <!--Radio Group-->
+    <dimen name="radio_group_margin_left">16dp</dimen>
+    <dimen name="radio_group_margin_right">16dp</dimen>
+    <dimen name="radio_group_padding_left">16dp</dimen>
+    <dimen name="radio_group_padding_right">16dp</dimen>
+
+
+
+    <!--Radio Button-->
+    <dimen name="radio_button_text_size">14sp</dimen>
+
+    <!--EditText-->
+    <dimen name="edittext_size">14sp</dimen>
+    <dimen name="edittext_margin_left">16dp</dimen>
+    <dimen name="edittext_margin_right">16dp</dimen>
+    <dimen name="edittext_margin_top">16dp</dimen>
+    <dimen name="edittext_margin_bottom">0dp</dimen>
+    <dimen name="edittext_padding_top">8dp</dimen>
+    <dimen name="edittext_padding_bottom">8dp</dimen>
+    <dimen name="edittext_padding_left">16dp</dimen>
+
+
+    <!--Checkbox-->
+    <dimen name="checkbox_margin_left">16dp</dimen>
+    <dimen name="checkbox_margin_right">16dp</dimen>
+    <dimen name="checkbox_padding_top">4dp</dimen>
+    <dimen name="checkbox_padding_bottom">4dp</dimen>
+    <dimen name="checkbox_padding_left">0dp</dimen>
+    <dimen name="checkbox_padding_right">16dp</dimen>
+
+
+    <!--Buttons-->
+    <dimen name="button_width">0dp</dimen>
+    <dimen name="button_margin_left">32dp</dimen>
+    <dimen name="button_margin_right">32dp</dimen>
+
+
+</resources>
